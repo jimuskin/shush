@@ -89,9 +89,20 @@ In this example, "shush exec":
 
 Binaries for official releases may be downloaded from the [releases page on GitHub](https://github.com/realestate-com-au/shush/releases).
 
-If you want to compile it from source, try:
+### From source
+
+To compile from source, you'll need Go installed:
+
+**Go 1.17 or later:**
+
+    $ go install github.com/realestate-com-au/shush@latest
+
+**Go versions prior to 1.17:**
 
     $ go get github.com/realestate-com-au/shush
+
+
+### Unix/Linux
 
 For Unix/Linux users, you can install `shush` using the following command. You may want to change the version number in the command below from `v1.5.5` to whichever version you want:
 
